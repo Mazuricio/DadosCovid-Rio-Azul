@@ -10,5 +10,7 @@ Os dados são coletados manualmente no facebook da Secrétaria Municípal de Sa�
 Os scripts funcionam da seguinte forma:
 
 *Main.py* -> Este gera os dois graficos, mas somente são usados para guardar os dados encontrados no arquivo **historico.csv***
+
 *Novos.py* -> Este gera o gráfico em barra dos novos casos, junto uma curva média de dados, e outra curva com a média móvel, gráfico salvo em Novos.png e Novos.pdf
+
 *ativos.py* -> Este gera o gráfico em barra dos casos ativos junto com uma curva média, grafico salvo em Ativos.png e Ativos.pdf

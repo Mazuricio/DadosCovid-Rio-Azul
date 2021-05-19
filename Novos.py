@@ -106,4 +106,4 @@ def novos():
     
 #print(df["Data"])
 novos()
-#plt.show()
+plt.show()

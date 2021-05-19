@@ -40,7 +40,7 @@ def ativos():
     y_text = ("Casos ativos - %.f Casos(+%.f%%)"%(df["Ativos"][len(df["Ativos"])-1]  ,porcentos))#('Curva de casos (+%.f%%)' % porcentos)
     plt.plot(df["Data"], new_ativ, color="r", label=y_text )
     ax.grid(True)
-    iniciox = df["Data"][len(df["Data"])-31]
+    iniciox = df["Data"][len(df["Data"])-25]
     fimx = df["Data"][len(df["Data"])-1] + timedelta(days = 0.5)
     ax.set_xlim(iniciox, fimx)
     #ax.set_ylim(0, 40)

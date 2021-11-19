@@ -4,7 +4,9 @@ Scripts em Python para Criar graficos sobre os dados da Covid-19 da cidade de Ri
 
 Os scripts utilizam as seguintes bibliotecas: **Pandas**, **Numpy**, **Matplotlib**, **Scipy**, além de outras bibliotecas padrões do Python
 
-Os dados são coletados manualmente no facebook da Secrétaria Municípal de Saúde de Rio Azul, devido ao fato de que lá os dados não são disponibilidados diariamente, e o uso de dados diferentes desta pagina poderiam sugerir algum "manipulação" dos dados comparado com os dados da Secrétaria
+Os dados são coletados manualmente no facebook da Secrétaria Municípal de Saúde de Rio Azul, devido ao fato de que lá os dados não são disponibilidados diariamente, e o uso de dados diferentes desta pagina poderiam sugerir algum "manipulação" dos dados comparado com os dados da Secrétaria.
+
+Estes scripts foram disponibilados para a Secrétaria Municipal de Saúde de Rio azul, a qual utilizou para monitorar e divulgar a situação da Covid-19 no municipio.
 
 
 Os scripts funcionam da seguinte forma:

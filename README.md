@@ -8,7 +8,8 @@ Os dados são coletados manualmente no facebook da Secrétaria Municípal de Sa�
 
 Estes scripts foram disponibilados para a Secrétaria Municipal de Saúde de Rio azul, a qual utilizou para monitorar e divulgar a situação da Covid-19 no municipio.
 
-
+## Graficos ## 
+Inicialmente criados para estudos, estes funcionam gerando imagens de cada gráfico
 Os scripts funcionam da seguinte forma:
 
 *Main.py* -> Este gera os dois graficos, mas somente são usados para guardar os dados encontrados no arquivo **historico.csv***
@@ -19,3 +20,13 @@ Os scripts funcionam da seguinte forma:
 
 ![Novos](Novos.png)
 ![Ativos](Ativos.png)
+
+
+## Programa Diario ## 
+
+Programa criado para auxiliar/automatizar a divulgação do boletim diario pela Secrétaria Municipal de Saude de Rio Azul.
+Anteriormente a imagem do boletim era feita manualmente Como uma apresentação de slides.
+O Designer apenas foi organizado comparado ao  utilizado anteriormente pela Secrétaria, para não confundir a população.
+Programa utiliza do **PySimpleGui** para criar janelas, ficando de facil utilização.
+
+![Boletim](boletim_exemplo.png)
